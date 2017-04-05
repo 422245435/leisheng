@@ -1,0 +1,27 @@
+.xqConts {
+  min-width: 310px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2% 8.5%;
+  box-sizing: border-box;
+}
+img {
+  border: none;
+  vertical-align: middle;
+}
+.xqConts h2 {
+  font-size: 2.2rem;
+  color: #474747;
+  margin-top: 20px;
+}
+.xqConts .subimgs img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.xqConts p {
+  margin-top: 5px;
+  font-size: 1.6rem;
+  color: #474747;
+  line-height: 1.7;
+}

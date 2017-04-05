@@ -1,0 +1,93 @@
+.banner{ width: 100%;}
+.banner .swiper-slide img{ position: relative; width: 100%; height: 100%; display: block;}
+
+.banner .swiper-slide .subvideos{ width: 100%; padding-top: 100%; position: relative;}
+.banner .swiper-slide video{ position: absolute; left: 0; top: 0; width: 100%;  z-index: 99;
+    object-fit: cover;
+    object-position: center center;
+}
+.banner .ban_prev,
+.banner .ban_next{ width: 40px; height: 40px;  margin-top: -20px; border: 1px solid #fff; border: 1px solid rgba(255,255,255,0.5);
+    transition: all .6s ease 0s;
+    -webkit-transition: all .6s ease 0s;
+    -moz-transition: all .6s ease 0s;
+}
+.banner .ban_prev{ background: url("../images/11.png") no-repeat center center; left: 20px;}
+.banner .ban_next{ background: url("../images/12.png") no-repeat center center; right: 20px;}
+.banner .ban_prev:hover,
+.banner .ban_next:hover{ background-color: rgba(255,255,255,0.3);}
+
+.banner .currter{ position: absolute; left: 50%; top: 10%; width: auto; height: auto;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+}
+.banner .currter .curA{ display: inline-block; width: 105px; height: 150px; position: relative; font-size: 0;
+    padding: 20px 20px; vertical-align: top;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.banner .currter .curA:before{
+    width: 0%; height: 0%; position: absolute; content: ''; left: -1px; top: -1px; border-top: 2px solid #fff; border-right: 2px solid #fff; opacity: 0;}
+.banner .currter .curA:after{
+    width: 0%; height: 0%; position: absolute; content: ''; right: -1px; bottom: -1px; border-bottom: 2px solid #fff; border-left: 2px solid #fff; opacity: 0;}
+
+.banner .currter .curA strong{ display: inline-block; width: 24px; height: 0px; text-align: center; vertical-align: top; margin: 0 3px; overflow: hidden;
+    transition: height 1.4s ease .4s;
+    -webkit-transition: height 1.4s ease .4s;
+    -moz-transition: height 1.4s ease .4s;
+}
+.banner .currter .curA strong:nth-of-type(2){
+    transition: height 1.4s ease 1.3s;
+    -webkit-transition: height 1.4s ease 1.3s;
+    -moz-transition: height 1.4s ease 1.3s;
+}
+.banner .currter .curA strong span{ display: block; width: 24px; height: 104px;}
+.banner .currter .curA strong em{ font-size: 30px; font-weight: bold; color: #fff; font-family: 'Myriad Pro';}
+.banner .currter .curB{ display: inline-block; vertical-align: top; 	padding:70px 0 0 10px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.banner .currter .curB font{ display: block; font-size: 12px; color: #fff; margin-top:4px;
+    transform: translateX(80px);
+    -webkit-transform: translateX(80px);
+    -moz-transform: translateX(80px);
+    opacity: 0;
+}
+.banner .currter .curB font:nth-of-type(1){
+    transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+}
+.banner .currter .curB font:nth-of-type(2){
+    transition: all 1s ease .2s;
+    -webkit-transition: all 1s ease .2s;
+    -moz-transition: all 1s ease .2s;
+}
+.banner .currter .curB font:nth-of-type(3){
+    transition: all 1s ease .4s;
+    -webkit-transition: all 1s ease .4s;
+    -moz-transition: all 1s ease .4s;
+}
+.banner .swiper-slide-active .curA:before{ width: 100%; height: 100%; opacity: 1;
+    transition: opacity .5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+    -webkit-transition: opacity .5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+    -moz-transition: opacity .5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+}
+.banner .swiper-slide-active .curA:after{ width: 100%; height: 100%; opacity: 1;
+    transition: opacity .5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+    -webkit-transition: opacity .5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+    -moz-transition: opacity .5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+}
+.banner .swiper-slide-active .curA strong{ height: 112px;}
+.banner .swiper-slide-active .curB font{ opacity: 1;
+    transform: translateX(0px);
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+}
+
+.musics{ position: fixed; left: 0; bottom: 0; z-index: 999;}
+
+/*.laba{ position: fixed; left: 135px; bottom: 4%; z-index: 999;}*/
+/*.laba img{ width: 15px; height: 15px; cursor: pointer;}*/
+

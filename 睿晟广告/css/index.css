@@ -1,0 +1,172 @@
+.mainBox {
+  position: relative;
+}
+.mainBox .musics {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+}
+.mainBox .banner {
+  width: 100%;
+}
+.mainBox .banner .swiper-slide img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.mainBox .banner .swiper-slide .subvideos {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+.mainBox .banner .swiper-slide .subvideos video {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  object-fit: cover;
+  object-position: center center;
+}
+.mainBox .banner .currter {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.mainBox .banner .currter .curA {
+  display: inline-block;
+  width: 105px;
+  height: 150px;
+  position: relative;
+  font-size: 0;
+  padding: 20px 20px;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+.mainBox .banner .currter .curA strong {
+  display: inline-block;
+  width: 24px;
+  height: 0px;
+  text-align: center;
+  vertical-align: top;
+  margin: 0 3px;
+  overflow: hidden;
+  -webkit-transition: height 1.4s ease .4s;
+          transition: height 1.4s ease .4s;
+}
+.mainBox .banner .currter .curA strong span {
+  display: block;
+  width: 24px;
+  height: 104px;
+}
+.mainBox .banner .currter .curA strong em {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+}
+.mainBox .banner .currter .curA strong:nth-of-type(2) {
+  -webkit-transition: height 1.4s ease 1.3s;
+          transition: height 1.4s ease 1.3s;
+}
+.mainBox .banner .currter .curA:before {
+  width: 0%;
+  height: 0%;
+  position: absolute;
+  content: '';
+  left: -1px;
+  top: -1px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  opacity: 0;
+}
+.mainBox .banner .currter .curA:after {
+  width: 0%;
+  height: 0%;
+  position: absolute;
+  content: '';
+  right: -1px;
+  bottom: -1px;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  opacity: 0;
+}
+.mainBox .banner .currter .curB {
+  display: inline-block;
+  vertical-align: top;
+  padding: 70px 0 0 10px;
+  box-sizing: border-box;
+}
+.mainBox .banner .currter .curB font {
+  display: block;
+  font-size: 12px;
+  color: #fff;
+  margin-top: 4px;
+  -webkit-transform: translateX(80px);
+      -ms-transform: translateX(80px);
+          transform: translateX(80px);
+  opacity: 0;
+}
+.mainBox .banner .currter .curB font:nth-of-type(1) {
+  -webkit-transition: all 1s ease 0s;
+          transition: all 1s ease 0s;
+}
+.mainBox .banner .currter .curB font:nth-of-type(2) {
+  -webkit-transition: all 1s ease .2s;
+          transition: all 1s ease .2s;
+}
+.mainBox .banner .currter .curB font:nth-of-type(3) {
+  -webkit-transition: all 1s ease .4s;
+          transition: all 1s ease .4s;
+}
+.mainBox .banner .ban_prev {
+  background: url("../images/11.png") no-repeat center center;
+  left: 20px;
+}
+.mainBox .banner .ban_next {
+  background: url("../images/12.png") no-repeat center center;
+  right: 20px;
+}
+.mainBox .banner .ban_prev,
+.mainBox .banner .ban_next {
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  border: 1px solid #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-transition: all .6s ease 0s;
+          transition: all .6s ease 0s;
+}
+.mainBox .banner .ban_prev:hover,
+.mainBox .banner .ban_next:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.mainBox .banner .swiper-slide-active .curA:before {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+          transition: opacity 0.5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+}
+.mainBox .banner .swiper-slide-active .curA:after {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+          transition: opacity 0.5s ease 0s, width 1s ease-in-out 0s, height 1s ease-in-out 0.9s;
+}
+.mainBox .banner .swiper-slide-active .curA strong {
+  height: 130px;
+}
+.mainBox .banner .swiper-slide-active .curB font {
+  opacity: 1;
+  -webkit-transform: translateX(0px);
+      -ms-transform: translateX(0px);
+          transform: translateX(0px);
+}

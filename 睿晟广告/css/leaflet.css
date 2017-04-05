@@ -1,0 +1,26 @@
+@charset "utf-8";
+.xq {
+  width: 1349px;
+  height: 351px;
+  min-width: 310px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2% 8.5%;
+  box-sizing: border-box;
+  position: relative;
+  background-size: 100% 100% !important;
+}
+.xq p {
+  margin-top: 5px;
+  font-size: 0.6rem;
+  color: #474747;
+  line-height: 1.7;
+}
+.xq h2 {
+  font-size: 1.2rem;
+  color: #474747;
+  margin-top: 20px;
+}
+html {
+  overflow-x: hidden ;
+}

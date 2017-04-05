@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+}
+@media all and (max-width: 768px) {
+  .trianGle {
+    display: none;
+  }
+  .trianGle .subTri {
+    fill: #fff;
+  }
+  .commit {
+    text-align: center;
+    position: relative;
+    left: -1rem;
+    top: 0;
+  }
+  .commit i {
+    display: inline-block;
+    width: .01rem;
+    height: .7rem;
+    margin-left: 2rem;
+    border-right: 1px solid #BBBBBB;
+  }
+  .commit h3 {
+    margin-top: -3%;
+    font-size: .22rem;
+    font-weight: bold;
+    color: #777777;
+  }
+  .commit em {
+    display: inline-block;
+    margin-left: 2rem;
+    width: .3rem;
+    height: .02rem;
+    background-color: #777777;
+  }
+  .commit h1 {
+    font-size: .5rem;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-weight: normal;
+  }
+  .images {
+    width: 3rem;
+    height: .7rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 3.8rem;
+    right: 0;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .images .img2 {
+    position: relative;
+    left: .2rem;
+  }
+  .images .img3 {
+    position: relative;
+    right: .2rem;
+  }
+  .images li {
+    list-style: none;
+  }
+  .content {
+    position: relative;
+    width: 4rem;
+    height: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    bottom: .3rem;
+  }
+  .content p {
+    position: relative;
+    bottom: .3rem;
+    font-size: .01rem;
+    color: #363636;
+  }
+  .pos {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: .2rem;
+  }
+  .pos p {
+    font-size: .01rem;
+    color: #666666;
+  }
+  .pos1 {
+    left: 2rem;
+    top: 1.3rem;
+  }
+  .pos2 {
+    text-align: center;
+    top: 2.6rem;
+  }
+}
+@media all and (max-width: 992px) and (min-width: 768px) {
+  .service {
+    width: 100%;
+    height: 7rem;
+    position: relative;
+    background: url("../images/about.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .service .trianGle {
+    position: absolute;
+    width: 65%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .service .trianGle .subTri {
+    fill: #fff;
+  }
+  .service .commit {
+    text-align: center;
+    position: relative;
+    left: -1rem;
+    top: 0;
+  }
+  .service .commit i {
+    display: inline-block;
+    width: .01rem;
+    height: .7rem;
+    border-right: 1px solid #BBBBBB;
+    margin-left: 2rem;
+  }
+  .service .commit h3 {
+    position: relative;
+    margin-left: 2rem;
+    font-size: .22rem;
+    font-weight: bold;
+    color: #777777;
+  }
+  .service .commit em {
+    display: inline-block;
+    margin-left: 2rem;
+    width: .3rem;
+    height: .02rem;
+    background-color: #777777;
+  }
+  .service .commit h1 {
+    position: relative;
+    margin-bottom: .3rem;
+    bottom: .3rem;
+    left: 1rem;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-weight: normal;
+  }
+  .service .images {
+    width: 3rem;
+    height: .7rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 3.8rem;
+    right: 0;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .service .images .img2 {
+    position: relative;
+    left: .2rem;
+  }
+  .service .images .img3 {
+    position: relative;
+    right: .2rem;
+  }
+  .service .images li {
+    list-style: none;
+  }
+  .service .content {
+    position: relative;
+    width: 4rem;
+    height: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    bottom: .3rem;
+  }
+  .service .content p {
+    position: relative;
+    bottom: .3rem;
+    font-size: .01rem;
+    color: #363636;
+  }
+  .service .pos {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: .2rem;
+  }
+  .service .pos p {
+    font-size: .01rem;
+    color: #666666;
+  }
+  .service .pos1 {
+    left: 2rem;
+    top: 1.3rem;
+  }
+  .service .pos2 {
+    text-align: center;
+    top: 2.6rem;
+  }
+}
+@media all and (min-width: 992px) {
+  .service {
+    width: 100%;
+    height: 7rem;
+    position: relative;
+    background: url("../images/about.jpg") no-repeat;
+    background-size: 100% 100%;
+  }
+  .service .trianGle {
+    position: absolute;
+    width: 65%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  .service .trianGle .subTri {
+    fill: #fff;
+  }
+  .service .commit {
+    text-align: center;
+    position: relative;
+    left: -1rem;
+    top: 0;
+  }
+  .service .commit i {
+    margin-left: 2rem;
+    display: inline-block;
+    width: .01rem;
+    height: .7rem;
+    border-right: 1px solid #BBBBBB;
+  }
+  .service .commit h3 {
+    position: relative;
+    margin-left: 2rem;
+    font-size: .3rem;
+    font-weight: bold;
+    color: #777777;
+  }
+  .service .commit em {
+    display: inline-block;
+    margin-left: 2rem;
+    width: .3rem;
+    height: .02rem;
+    background-color: #777777;
+  }
+  .service .commit h1 {
+    position: relative;
+    margin-bottom: .3rem;
+    bottom: .3rem;
+    left: 1rem;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #F5F5F5;
+    font-weight: normal;
+  }
+  .service .images {
+    width: 3rem;
+    height: .7rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 3.8rem;
+    right: 0;
+    margin: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .service .images .img2 {
+    position: relative;
+    left: .2rem;
+  }
+  .service .images .img3 {
+    position: relative;
+    right: .2rem;
+  }
+  .service .images li {
+    list-style: none;
+  }
+  .service .content {
+    position: relative;
+    width: 4rem;
+    height: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    bottom: .3rem;
+  }
+  .service .content p {
+    position: relative;
+    bottom: .3rem;
+    font-size: .01rem;
+    color: #363636;
+  }
+  .service .pos {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 4rem;
+    height: .2rem;
+  }
+  .service .pos p {
+    font-size: .01rem;
+    color: #666666;
+  }
+  .service .pos1 {
+    left: 2rem;
+    top: 1.3rem;
+  }
+  .service .pos2 {
+    text-align: center;
+    top: 2.6rem;
+  }
+}
